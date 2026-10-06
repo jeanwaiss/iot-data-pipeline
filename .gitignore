@@ -1,0 +1,40 @@
+# === Ambiente virtual Python ===
+venv/
+.venv/
+env/
+ENV/
+
+# === Cache do Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Streamlit ===
+.streamlit/secrets.toml
+
+# === Dataset (muito grande para o GitHub) ===
+# Descomente a linha abaixo se NÃO quiser subir o CSV:
+# data/*.csv
+
+# === Sistema operacional ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Logs ===
+*.log
